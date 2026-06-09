@@ -12,9 +12,10 @@
 
 ## 禁止行為
 - 禁止在 Node.js 程式碼中 hardcode secret key 或直接信任客戶端傳入金額
-- 禁止直接修改 spec.md，需先與人類確認
+- 禁止直接修改 prd.md，需先與人類確認
 
 ## 常用指令
+- 啟動資料庫：`docker-compose up -d db`
 - 啟動後端：`npm run server`
 - 啟動前端：`cd frontend && npm run dev`
 - 執行測試：`npm run test:server`
